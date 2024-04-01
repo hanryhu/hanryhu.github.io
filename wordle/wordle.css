@@ -1,0 +1,30 @@
+body {
+ background-color: gray;
+}
+
+h1 {
+ color: white;
+ align-self: center;
+}
+
+#wordle_box {
+    padding: 5px;
+}
+
+.row {
+    padding: 5px;
+    height: 50px;
+    background-color: green;
+}
+
+.letter {
+    padding: 5px;
+    border-width: medium;
+    border-color: white;
+    background-color: black;
+}
+
+.letter p {
+    color: white;
+    font-weight: bolder;
+}
