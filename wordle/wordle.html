@@ -17,14 +17,24 @@
 
 <h1>hanryhu's wordle bot</h1>
 
-<div id="wordle_box">
-    <div class="row">
-        <div class="letter"></div>
-        <div class="letter"></div>
-        <div class="letter"></div>
-        <div class="letter"></div>
-        <div class="letter"></div>
+<div id="toolbar">
+    <div class="menu">
+        <div class="menuitem" id="best_guess" title="Lists the guess with lowest worst-case followups">Best guess</div>
+        <div class="menuitem" id="survey_guesses" title="Lists all remaining words with worst-case followups">Survey guesses</div>
+        <div class="menuitem" id="words_left" title="Lists all remaining words">Words left</div>
+        <div class="menuitem" id="add_clue" title="Prompts for your guess and the colors you got.">Add clue</div>
+        <div class="menuitem" id="guess" title="Calculates the worst case scenario for your guess.">Guess vs adversary</div>
+        <div class="menuitem" id="restart" title="Clear the board.">Restart</div>
     </div>
+</div>
+
+<div id="message_box">
+    <p>Welcome to hanryhu's wordle bot!</p>
+    <p>If you're new here, try "Add clue" a few times.</p>
+    <p>Hover over a menu item to see a description.</p>
+    <p>Be aware! "Best guess", "Survey guesses", "Guess vs adversary", and the first "Add clue" will take a long time as the website calculates all options.</p>
+</div>
+<div id="wordle_box">
 </div>
 
 </body>
