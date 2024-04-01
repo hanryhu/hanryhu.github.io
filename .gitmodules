@@ -1,0 +1,3 @@
+[submodule "wordle/wordle"]
+	path = wordle/wordle
+	url = ../wordle.git
